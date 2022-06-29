@@ -1,9 +1,20 @@
-﻿// Напишите программу, которая выводит случайное трёхзначное число и удаляет вторую цифру этого числа.
+﻿// Задача 10 : Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
-int number = new Random().Next(99,999);
-Console.WriteLine($"Random number - {number}");
+Console.WriteLine("Enter a number");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number > 999)
+{
+    Console.WriteLine("The number is too high");
+}
+else
+{
+    if (number < 100)
+    {
+        Console.WriteLine("The number is too low");
+    }
 
-string stNumber = number.ToString();
-stNumber = stNumber.Remove(1,1);
-
-Console.WriteLine($"The number without a middle character - {stNumber}");
+    else
+    {
+        Console.WriteLine($"The number's middle character - {(number % 100) / 10}");
+    }
+}
