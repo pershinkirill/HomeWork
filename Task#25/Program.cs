@@ -1,6 +1,6 @@
 ﻿// Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 
-Console.WriteLine("Enter the number A, that will be raise to the B power");
+Console.WriteLine("Enter the number A, that will be raised to the B power");
 int a = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Enter the number B");
