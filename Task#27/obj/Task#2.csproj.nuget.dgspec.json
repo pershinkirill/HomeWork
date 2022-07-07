@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#2/Task#2.csproj": {}
+    "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#_21/Task#2.csproj": {}
   },
   "projects": {
-    "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#2/Task#2.csproj": {
+    "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#_21/Task#2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#2/Task#2.csproj",
+        "projectUniqueName": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#_21/Task#2.csproj",
         "projectName": "Task#2",
-        "projectPath": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#2/Task#2.csproj",
+        "projectPath": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#_21/Task#2.csproj",
         "packagesPath": "/Users/isupport/.nuget/packages/",
-        "outputPath": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#2/obj/",
+        "outputPath": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#_21/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/isupport/.nuget/NuGet/NuGet.Config"
