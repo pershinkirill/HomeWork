@@ -114,19 +114,40 @@
 // [1 2 3 4 5] -> 5 8 3
 // [6 7 3 6] -> 36 21
 
-int[] array = new int [10];
-int[] arrayResult = new int [5];
+int[] array = new int [11];
+
 int size = array.Length;
 int index = 0;
 
 while (index < size)
 {
-    array[index] = new Random().Next(-9,10); index ++;
+    array[index] = new Random().Next(); index ++;
 }
 
-for (index = 0; index < size / 2; index ++)
+if ( size % 2 == 0)
 {
-    arrayResult[index] = array[index] * array[size - index - 1];
+    int[] arrayResult = new int [size / 2];
+    for (index = 0; index < size / 2; index ++)
+    {
+        arrayResult[index] = array[index] * array[size - index - 1];
+    }
+    Console.WriteLine($"Array - [{String.Join("; ", array)}]");
+    Console.WriteLine($"Array Result- [{String.Join("; ", arrayResult)}]");
 }
-Console.WriteLine($"Array - [{String.Join("; ", array)}]");
-Console.WriteLine($"Array Result- [{String.Join("; ", arrayResult)}]");
+
+else 
+{
+    int[] arrayResult = new int [(size / 2) + 1];
+    
+    for (index = 0; index < size / 2; index ++)
+    {
+        arrayResult[index] = array[index] * array[size - index - 1];
+    }
+    arrayResult[arrayResult.Length - 1] = array[size / 2];
+
+    Console.WriteLine($"Array - [{String.Join("; ", array)}]");
+    Console.WriteLine($"Array Result- [{String.Join("; ", arrayResult)}]");
+}
+
+
+
