@@ -10,7 +10,7 @@ int evenIndexAmount = 0;
 
 while (index < size)
 {
-    array[index] = new Random().Next(1,10); 
+    array[index] = new Random().Next(); 
     index ++;
 }
 
