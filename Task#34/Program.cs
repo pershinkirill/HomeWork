@@ -18,8 +18,6 @@ for (index = 0; index < size; index ++)
     if (array[index] % 2 == 0) counter ++;
 }
 
-if (counter > 1) Console.WriteLine($"there are {counter} even integers in array - [{String.Join("; ", array)}]");
-
-if (counter == 0) Console.WriteLine($"There is not a single even integer in array - [{String.Join("; ", array)}]");
-
+if (counter > 1) Console.WriteLine($"There are {counter} even integers in array - [{String.Join("; ", array)}]");
 if (counter == 1) Console.WriteLine($"There is the only one even integer in array - [{String.Join("; ", array)}]");
+if (counter == 0) Console.WriteLine($"There is not a single even integer in array - [{String.Join("; ", array)}]");
