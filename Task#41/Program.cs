@@ -4,12 +4,12 @@
 
 Console.WriteLine("Enter a sequence of numbers, separated with spaces without commas");
 
-string[] numbersSequence = Console.ReadLine().Split(' ');
+int[] numbersSequence = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
 int counter = 0;
 
 for (int i = 0; i < numbersSequence.Length; i++)
 {
-    if (Convert.ToInt32(numbersSequence[i]) > 0) counter ++;
+    if (numbersSequence[i] > 0) counter ++;
 }
 
 if (counter > 1) Console.WriteLine($"There are {counter} positive numbers in the array - [{String.Join("; ", numbersSequence)}]");

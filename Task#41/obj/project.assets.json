@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Taskr#41/seminar#6.csproj",
+      "projectUniqueName": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#41/seminar#6.csproj",
       "projectName": "seminar#6",
-      "projectPath": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Taskr#41/seminar#6.csproj",
+      "projectPath": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#41/seminar#6.csproj",
       "packagesPath": "/Users/isupport/.nuget/packages/",
-      "outputPath": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Taskr#41/obj/",
+      "outputPath": "/Users/isupport/Downloads/02 Studying/07 Python/04 C#/HomeWork/Task#41/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/isupport/.nuget/NuGet/NuGet.Config"
