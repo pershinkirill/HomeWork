@@ -28,4 +28,4 @@ double x = (b1 - b2) / (-k1 + k2);
 // Now we can just add the first row to the second, knowing the X
 double y = ((k2 + k1) * ((b1 - b2) / (-k1 + k2)) + (b1 + b2)) / 2;
 
-Console.WriteLine($"(y = {y} ; x = {x})");
+Console.WriteLine($"(x = {x}; y = {y})");
