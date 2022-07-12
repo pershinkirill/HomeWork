@@ -25,6 +25,6 @@ Console.WriteLine($"y = {k2} * x + {b2}");
 // Using Gaussian elimination method we can multiply the first row on -1 and add it to the second row
 double x = (b1 - b2) / (-k1 + k2);
 // Now we can use the result putting it to the sum of rows
-double y = ((k2 + k1) * x + (b1 + b2) )/ 2;
+double y = ((k2 + k1) * x + (b1 + b2)) / 2;
 
 Console.WriteLine($"(y = {y} ; x = {x})");
