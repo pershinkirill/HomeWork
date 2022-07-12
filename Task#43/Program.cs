@@ -23,8 +23,9 @@ Console.WriteLine($"y = {k2} * x + {b2}");
 // 3. Adding a multiple of one row to another row. 
 
 // Using Gaussian elimination method we can multiply the first row on -1 and add it to the second row
+// y - y = (-k1 + k2) * x + (-b1 + b2) -> (-k1 + k2) * x = (b1 - b2) -> x = (b1 - b2) / (-k1 + k2)
 double x = (b1 - b2) / (-k1 + k2);
-// Now we can use the result putting it to the sum of rows
-double y = ((k2 + k1) * x + (b1 + b2)) / 2;
+// Now we can just add the first row to the second, knowing the X
+double y = ((k2 + k1) * ((b1 - b2) / (-k1 + k2)) + (b1 + b2)) / 2;
 
 Console.WriteLine($"(y = {y} ; x = {x})");
