@@ -27,7 +27,7 @@ for (int j = 0; j < columns; j++)
 {
     for (int i = 0; i < rows; i++)
     {
-        avg[j] += Math.Round((matrix[i,j] / rows), 2);
+        avg[j] += (matrix[i,j] / rows);
     }
 }
 Console.WriteLine($"The columns average values are - [{String.Join(" ", avg.Select(avg => Math.Round(avg, 2)).ToList())}]");
