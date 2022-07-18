@@ -16,7 +16,7 @@ for (int i = 0; i < rows; i++)
 {
     for (int j = 0; j < columns; j++)
     {
-        matrix[i,j] = new Random().Next(0,10);
+        matrix[i,j] = Math.Round((new Random().NextDouble() * new Random().Next(-10,11)), 2);
         Console.Write(matrix[i,j] + "\t ");
    
     }
